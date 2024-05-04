@@ -1,0 +1,237 @@
+
+@media screen and (max-width:991px) {
+    .nav{
+       position: absolute;
+    }
+   .nav h2{
+         flex-direction: column;
+   }
+   .nav-toggle{
+       display: block;
+       margin-right: 20px;
+   }
+   .nav{
+       display: none;
+   }
+   .cards{
+       flex-wrap: wrap;
+       gap: 20px;
+   }
+   .card1,.card2,.card3,.card4{
+        width: calc(50% - 10px);
+        height: 70%;
+   }
+   .card-btn,.card-btn2,.card-btn3,.card-btn4{
+       height: 12%;
+   }
+   .review{
+       margin-top: 200px;
+   }
+    .container{
+      justify-content: center;
+      gap: 20px;
+      height: 60%;
+    }
+   .cards{
+       margin-top: 10px;
+   }
+   .container .card .content{
+       top: 12rem;
+       height: 2rem;
+   }
+   .container .card:hover .content{
+       top: 13rem;
+       height: 10rem;
+   }
+   .container .card .content h2{
+       font-size: 1.6rem;
+       font-family: "Rancho", cursive;
+   }
+   .container .card .content p{
+       font-size: 1.1rem;
+       font-family: "Rancho", cursive;
+   }
+    .provide{
+       height: 10rem;
+    }
+   .footer{
+       padding-top: 2.4rem;
+       height: 50%;
+   }
+   .footer .logos{
+       height: 25%;
+       padding-top: 10px;
+   }
+   .footer .logos h2{
+       font-size: 1.2rem;
+   }
+}
+
+
+@media screen and (max-width: 767px){
+   .review{
+       margin-top: 200px;
+   }
+   .container{
+       flex-wrap: wrap;
+       gap: 20px;
+   }
+   .container .card{
+       width: calc(50% - 10px);
+       height: 50%;
+       margin-top: 50px;
+   }
+   .container .card:hover{
+       height: 60%;
+   }
+   .contenttext h2{
+       font-size:  3rem;
+   }
+   .card-title,.card-title2,.card-title3{
+       font-size: 3rem;
+   }
+   .card-title4{
+       font-size: 2.5rem;
+   }
+   .card-info,.card-info2,.card-info3,.card-info4{
+       font-size: 1.6rem;
+   }
+   .card-btn,.card-btn2,.card-btn3,.card-btn4{
+       height: 12%;
+   width: 28%;
+   }
+   .card1,.card2,.card3,.card4{
+       height: 66%;
+   }
+   .container .card .content h2{
+       font-size: 2rem;
+   }
+   .container .card .content p{
+       font-size: 1.4rem;
+   }
+   .information .info .text p{
+       font-size: 1.5rem;
+       padding-top: 1.4rem;
+   }
+   .provide{
+       margin-top: 120px;
+    }
+   .footer .logos{
+       height: 25%;
+       width: 18%;
+   }
+   .footer .logo{
+       gap: 5px;
+   }
+   .footer .logos h2{
+       font-size: 0.9rem;
+   }
+  .footer .services h1{
+   font-size: 1.4rem;
+  }
+  .footer .services .serv{
+   font-size: 0.7rem;
+  }
+  .footer .links h1{
+   font-size: 1.4rem;
+  }
+  .footer .links .link{
+   font-size: 0.7rem;
+  }
+  .footer .about h1{
+   font-size: 1.4rem;
+  }
+  .footer .about .abt{
+   font-size:  0.7rem;
+  }
+}
+
+
+@media screen and (max-width: 501px) {
+   
+   .card1,.card2,.card3,.card4{
+       height: 60%;
+  }
+  .card-title,.card-title2,.card-title3{
+   font-size: 2.2rem;
+}
+.card-title4{
+   font-size: 2rem;
+}
+.card-info,.card-info2,.card-info3,.card-info4{
+   font-size: 1.3rem;
+}
+.card-body1,.card-body2,.card-body3,.card-body4{
+   padding: 0.8rem;
+}
+.card-btn,.card-btn2,.card-btn3,.card-btn4{
+   height: 10%;
+   width: 32%;
+   margin-left: 5rem;
+}
+.contenttext h2{
+   font-size:  2.8rem;
+   padding-top: 2rem;
+}
+.container .card .content p{
+   font-size: 1.3rem;
+}
+.review{
+   margin-top: 100px;
+   font-size:  1.8rem;
+}
+.footer .logos{
+   height: 18%;
+   width: 16%;
+}
+.footer .logo{
+   font-size: 1rem;
+   width: 16%;
+}
+.footer .logos h2{
+   font-size: 0.7rem;
+}
+.footer .services h1{
+   font-size: 1.2rem;
+  }
+  .footer .services .serv{
+   font-size: 0.6rem;
+  }
+  .footer .links h1{
+   font-size: 1.2rem;
+  }
+  .footer .links .link{
+   font-size: 0.6rem;
+  }
+  .footer .about h1{
+   font-size: 1.2rem;
+  }
+  .footer .about .abt{
+   font-size:  0.6rem;
+  }
+  .footer .services{
+     height: 100%;
+  }
+  .footer .links{
+   height: 100%;
+}
+.footer .about{
+   height: 100%;
+}
+.footer{
+   height: 40%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
